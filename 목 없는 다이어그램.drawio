@@ -1,1 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T01:06:32.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.0.6" etag="uA2ZOHK7n1k8HCB2_M6S" type="github"><diagram name="페이지-1" id="cKFjXOOlHmxCjA17lQGs">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-04T09:08:52.861Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="1s4HkjAiNuRXzvPj7VH2" version="21.0.6" type="github">
+  <diagram name="페이지-1" id="cKFjXOOlHmxCjA17lQGs">
+    <mxGraphModel dx="2183" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="62ahfOTf5YEQez6gC-17-10" value="ClientMain&lt;br&gt;1. 사용자의 입력을 받아서&lt;br&gt;MappingHandler에게 넘긴다&lt;br&gt;&lt;br&gt;3. MappingHandler 로부터 Service를 서비스 로직을 실행한다" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="515" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="62ahfOTf5YEQez6gC-17-11" value="Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="520" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="62ahfOTf5YEQez6gC-17-12" value="ProductClient" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="520" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="62ahfOTf5YEQez6gC-17-13" value="ClientRequestHanddler&lt;br&gt;ProductClient의 요청들을 받은후 처리한다.&lt;br&gt;처리 결과를 ProductClient 에게 보내줌&lt;br&gt;http 프로토콜 의 비연결성처럼&lt;br&gt;한번의 요청, 한번의 응답후 연결을 끊음" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="510" width="220" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="62ahfOTf5YEQez6gC-17-14" value="MappingHandler&lt;br&gt;2. ClientMain이 넘겨준&lt;br&gt;사용자의 입력에 맞는 Service를 찾아서 ClientMain에게 넘겨준다" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="375" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="62ahfOTf5YEQez6gC-17-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-60" y="574.5" as="sourcePoint" />
+            <mxPoint x="10" y="575.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-10" y="575.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62ahfOTf5YEQez6gC-17-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="572" as="sourcePoint" />
+            <mxPoint x="170" y="572.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62ahfOTf5YEQez6gC-17-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="515" as="sourcePoint" />
+            <mxPoint x="-80" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62ahfOTf5YEQez6gC-17-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.889;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="62ahfOTf5YEQez6gC-17-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="465" as="sourcePoint" />
+            <mxPoint x="-100" y="505" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62ahfOTf5YEQez6gC-17-67" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="350" y="574.5" as="sourcePoint" />
+            <mxPoint x="440" y="574.5" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="62ahfOTf5YEQez6gC-17-69" value="ProductServer&lt;br&gt;welcome 소켓으로 ProductClient의 연결 요청이 올때마다 ClientRequestHanddler 를 만들고, 쓰레드풀에서 쓰레드를 조회하여 ClientRequestHanddler로직을 실행시킴" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="487.5" width="230" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="62ahfOTf5YEQez6gC-17-70" value="welcome소켓&lt;br&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="870" y="412.5" width="75" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="62ahfOTf5YEQez6gC-17-71" value="ServerRepository" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="62ahfOTf5YEQez6gC-17-72" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.588;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="62ahfOTf5YEQez6gC-17-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="580" as="sourcePoint" />
+            <mxPoint x="680" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
