@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-04-09T10:20:37.092Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" version="21.1.4" etag="_6NHzcjI1II1S7ToqlEr" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-09T13:54:14.825Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="rSq_c2Ncch92TfcCL3N8" version="21.1.4" type="github">
   <diagram name="페이지-1" id="UsJPscPA9fSzTMEHeEOH">
-    <mxGraphModel>
+    <mxGraphModel dx="988" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="JWkcVUKYzZJUHvLAXp_R-2" value="프로필" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JWkcVUKYzZJUHvLAXp_R-8" value="홈으로가기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JWkcVUKYzZJUHvLAXp_R-9" value="만들기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JWkcVUKYzZJUHvLAXp_R-10" value="알림" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JWkcVUKYzZJUHvLAXp_R-11" value="검색" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="190" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JWkcVUKYzZJUHvLAXp_R-12" value="탐색 탭" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="230" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JWkcVUKYzZJUHvLAXp_R-13" value="릴스" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JWkcVUKYzZJUHvLAXp_R-14" value="메시지" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JWkcVUKYzZJUHvLAXp_R-17" value="더보기" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="JWkcVUKYzZJUHvLAXp_R-18" value="미니룸" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="640" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JWkcVUKYzZJUHvLAXp_R-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="154.5" as="sourcePoint" />
+            <mxPoint x="260" y="154.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="154.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JWkcVUKYzZJUHvLAXp_R-20" value="피드목록" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JWkcVUKYzZJUHvLAXp_R-25" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="150" as="sourcePoint" />
+            <mxPoint x="410" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JWkcVUKYzZJUHvLAXp_R-26" value="피드보기" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="399" y="140" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JWkcVUKYzZJUHvLAXp_R-27" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="429" y="150" as="sourcePoint" />
+            <mxPoint x="510" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
